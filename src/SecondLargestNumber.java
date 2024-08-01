@@ -4,7 +4,7 @@ public class SecondLargestNumber {
 	public static void main(String[] args) {
 		
 		
-		int a[]= {5,8,10,56,43,67,34,7,90,110};
+		int a[]= {5,8,10,56,10,67,34,7,90,110};
 		int max1=a[0];
 		int max2=a[0];
 		

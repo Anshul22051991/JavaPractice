@@ -6,16 +6,20 @@ public class Car extends Vehicle {
 		
 	}
 
-	void method3() {
-		// TODO Auto-generated method stub
+	void method3(String s) {
+		System.out.println("string print");
 		
 	}
 
-public void metho2(int x) {
-	
-}
+	void method4() {
+		// TODO Auto-generated method stub
+		
+	}
 	public static void main(String[] args) {
 		Vehicle v= new Car();
+		Car c= new Car();
+		c.method3();
+		
 
 	}
 

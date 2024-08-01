@@ -34,7 +34,7 @@ public class AnagramString {
 		String s2 = "Angel";
 		try {
 			matchString(s1, s2);
-		} catch (StringNotEqual e) {
+		} catch (Exception e) {
 			System.out.println(e);
 
 		}

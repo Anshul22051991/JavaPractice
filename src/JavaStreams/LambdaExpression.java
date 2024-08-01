@@ -1,6 +1,7 @@
 package JavaStreams;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,6 +29,12 @@ public class LambdaExpression {
 		
 		
 		System.out.println(ls.get(0));
+		
+		// find even number from array and then multiply by 2
+		int a[]= {1,2,3,4,5,6,7,8};
+		List<Integer> in=Arrays.stream(a).filter(s->s%2==0).map(s->s*2).boxed().collect(Collectors.toList());
+		System.out.println(Arrays.toString(in.toArray()));
+		
 		
 	
 		

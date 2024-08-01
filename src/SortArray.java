@@ -21,6 +21,7 @@ public class SortArray {
 			
 				
 			}
+		
 		System.out.println(Arrays.toString(a));
 		}
 		

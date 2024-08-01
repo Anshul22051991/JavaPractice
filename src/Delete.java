@@ -1,32 +1,29 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Delete {
 
-	   public static void moveZeroes(int[] nums) {
-	        int lastNonZeroFoundAt = 0;
+	public static void main(String[] args) {
+		Delete d= new Delete();
+		String p=d.par("Ans", 10);
+		System.out.println(p);
+		
+	}
+	public String par(String s, int len) {
+	
+		if(s==null)
+			s="";
+		if(s.length()>len)
+			throw new RuntimeException("The data field is more than the given lenth");
+		else if(s.length()==len)
+			return s;
+		else {
+			for(int i=s.length();i<len;i++)
+				s=s+" ";
+			return s;
+		}
+		
+}
 
-	        // Move all the non-zero elements forward
-	        for (int i = 0; i < nums.length; i++) {
-	            if (nums[i] != 0) {
-	                nums[lastNonZeroFoundAt] = nums[i];
-	                lastNonZeroFoundAt++;
-	            }
-	        }
-
-	        // Fill remaining positions with zeroes
-	        for (int i = lastNonZeroFoundAt; i < nums.length; i++) {
-	            nums[i] = 0;
-	        }
-	    }
-
-	    public static void main(String[] args) {
-	        int[] nums = {0, 1, 0, 3, 12};
-	        moveZeroes(nums);
-	        
-	        // Output the result
-	        for (int num : nums) {
-	            System.out.print(num + " ");
-	        }
-	    }
 
 }

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -9,6 +10,7 @@ public class CountOccurenceOfCharString {
 		char[] cc=s.toCharArray();
 		
 		ArrayList<Character> ar= new ArrayList<Character>();
+		
 		
 		for(int i=0;i<cc.length;i++) {
 			int k=0;
@@ -28,6 +30,7 @@ public class CountOccurenceOfCharString {
 			
 		}
 		
+	System.out.println(	Arrays.toString(ar.toArray()));
 		
 	
 	}

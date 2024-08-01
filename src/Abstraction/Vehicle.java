@@ -18,6 +18,8 @@ package Abstraction;
 	 public void metho2() {
 		 System.out.println("Method 1");
 	 }
-	 abstract void method3();
+	 public void method3() {
+		 System.out.println("ss");
+	 }
 	 
 }

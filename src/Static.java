@@ -18,7 +18,7 @@ public class Static {
 	public static void main(String[] args) {
 		Static d1= new Static();
 		Static d2=new Static();
-		d1.age=20;
+		d1.age=90;
 	
 		System.out.println(d2.age);
 		d1.a=89;

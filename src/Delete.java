@@ -14,7 +14,7 @@ public class Delete {
 		if(s==null)
 			s="";
 		if(s.length()>len)
-			throw new RuntimeException("The data field is more than the given lenth");
+			throw new RuntimeException("The data field is more than the given length");
 		else if(s.length()==len)
 			return s;
 		else {

@@ -20,7 +20,7 @@ public class ExceptionHandling {
 		System.out.println("Result is "+c);
 		
 		int d=a[6];
-		System.out.println("we");
+		System.out.println("Welcome");
 		System.out.println(d);
 		}
 		catch(ArithmeticException e) {

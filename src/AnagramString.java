@@ -4,7 +4,9 @@ public class AnagramString {
 
 	public static class StringNotEqual extends Exception {
 		public String toString() {
-			return "Given strings are not equal";
+
+			return "Strings are not equal";
+
 
 		}
 

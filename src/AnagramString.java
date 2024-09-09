@@ -21,7 +21,7 @@ public class AnagramString {
 			Arrays.sort(a1);
 			Arrays.sort(a2);
 			if (Arrays.equals(a1, a2)) {
-				System.out.println("Anagram");
+				System.out.println("Anagram string");
 			}
 
 		}

@@ -6,7 +6,7 @@ public class Palindrom {
 		// TODO Auto-generated method stub
 		
 	Scanner scan= new Scanner(System.in);
-	System.out.println("Enter number");
+	System.out.println("Enter a number");
 	int n=scan.nextInt();
 	
 	int m=n;
